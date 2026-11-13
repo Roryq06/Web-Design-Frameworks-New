@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Week 4 - Pricing Grid</title>
+
+  <!-- Original Compass styles -->
+  <link rel="stylesheet" href="assets/app.css">
+
+  <!-- Tailwind browser compiler for this practice page -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-stone-100 text-gray-900 font-sans">
+
+  <main class="mx-auto max-w-5xl px-4 py-12">
+
+    <h1 class="mb-4 text-center text-3xl font-bold">
+      Our Pricing Plans
+    </h1>
+
+    <p class="mb-10 text-center text-gray-600">
+      Choose the plan that works best for you.
+    </p>
+
+    <!-- Challenge 1: Pricing Grid -->
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+
+      <!-- Basic -->
+      <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+
+        <h2 class="text-xl font-semibold">Basic</h2>
+
+        <p class="mt-4 text-3xl font-bold">€19</p>
+
+        <p class="mt-2 text-gray-600">
+          Perfect for getting started.
+        </p>
+
+        <button class="mt-6 rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
+          Choose Plan
+        </button>
+
+      </div>
+
+      <!-- Pro -->
+      <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+
+        <h2 class="text-xl font-semibold">Pro</h2>
+
+        <p class="mt-4 text-3xl font-bold">€39</p>
+
+        <p class="mt-2 text-gray-600">
+          Great for regular users.
+        </p>
+
+        <button class="mt-6 rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
+          Choose Plan
+        </button>
+
+      </div>
+
+      <!-- Premium -->
+      <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
+
+        <h2 class="text-xl font-semibold">Premium</h2>
+
+        <p class="mt-4 text-3xl font-bold">€59</p>
+
+        <p class="mt-2 text-gray-600">
+          Everything you need in one plan.
+        </p>
+
+        <button class="mt-6 rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
+          Choose Plan
+        </button>
+
+      </div>
+
+      <!-- Challenge 2: Full-width banner -->
+<div class="col-span-full rounded-xl bg-blue-100 p-6 text-center">
+  <h2 class="text-xl font-bold text-blue-900">
+    Not sure which plan to choose?
+  </h2>
+
+  <p class="mt-2 text-blue-800">
+    Contact our team and we'll help you find the right plan.
+  </p>
+</div>
+
+    </div>
+
+  </main>
+
+</body>
+</html>
