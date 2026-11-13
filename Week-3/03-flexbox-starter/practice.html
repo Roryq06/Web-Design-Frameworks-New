@@ -1,0 +1,194 @@
+
+<!doctype html>
+<html lang="en-IE">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Week 3 - Flexbox Challenges</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Hanken+Grotesk:wght@500;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Original Week 3 Tailwind CSS -->
+  <link rel="stylesheet" href="assets/app.css">
+
+</head>
+
+<body class="bg-paper font-sans text-ink">
+
+  <main class="mx-auto max-w-5xl px-5 py-12">
+
+    <!-- CHALLENGE 1: DROP-IN HOSTS STRIP -->
+
+    <section aria-labelledby="hosts-heading">
+
+      <h1
+        id="hosts-heading"
+        class="mb-3 font-display text-3xl font-bold"
+      >
+        Meet Your Drop-In Hosts
+      </h1>
+
+      <p class="mb-8">
+        Meet the friendly faces running our Compass
+        drop-in sessions.
+      </p>
+
+      <!-- Flexbox container -->
+      <div class="flex flex-wrap gap-6">
+
+        <!-- Host 1 -->
+        <article
+          class="min-w-0 flex-1 basis-64
+                 border-(length:--rule) border-ink
+                 bg-lime p-8 text-on-light"
+        >
+
+          <h2 class="font-display text-lg font-bold">
+            Emma Walsh
+          </h2>
+
+          <p class="mt-2 font-bold">
+            Student Support Adviser
+          </p>
+
+          <p class="mt-3">
+            Helps students find the right support
+            for their needs.
+          </p>
+
+        </article>
+
+        <!-- Host 2 -->
+        <article
+          class="min-w-0 flex-1 basis-64
+                 border-(length:--rule) border-ink
+                 bg-green p-8 text-on-light"
+        >
+
+          <h2 class="font-display text-lg font-bold">
+            Daniel Murphy
+          </h2>
+
+          <p class="mt-2 font-bold">
+            Wellbeing Coordinator
+          </p>
+
+          <p class="mt-3">
+            Organises relaxed wellbeing sessions
+            throughout the week.
+          </p>
+
+        </article>
+
+        <!-- Host 3 -->
+        <article
+          class="min-w-0 flex-1 basis-64
+                 border-(length:--rule) border-ink
+                 bg-pink p-8 text-on-light"
+        >
+
+          <h2 class="font-display text-lg font-bold">
+            Sarah Kelly
+          </h2>
+
+          <p class="mt-2 font-bold">
+            Learning Support Mentor
+          </p>
+
+          <p class="mt-3">
+            Shares practical study strategies
+            and organisation tips.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- CHALLENGE 3: BRING HOME A PATTERN -->
+
+    <section
+      class="mt-16"
+      aria-labelledby="project-heading"
+    >
+
+      <h2
+        id="project-heading"
+        class="mb-6 font-display text-3xl font-bold"
+      >
+        My Project Dashboard
+      </h2>
+
+      <p class="mb-6">
+        A project toolbar inspired by GitHub's
+        repository interface, rebuilt using
+        my own content.
+      </p>
+
+      <!-- Main Flexbox toolbar -->
+      <div
+        class="flex flex-wrap items-center gap-6
+               border-(length:--rule) border-ink
+               bg-lime p-8"
+      >
+
+        <!-- Project information -->
+        <div class="min-w-0 flex-1 basis-64">
+
+          <h3 class="font-display text-lg font-bold">
+            Student Booking App
+          </h3>
+
+          <p class="mt-2">
+            My latest web development project.
+          </p>
+
+        </div>
+
+        <!-- Action links -->
+        <div class="flex flex-wrap items-center gap-2">
+
+          <a
+            href="https://github.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-(length:--rule) border-ink
+                   bg-paper px-4 py-2
+                   font-display font-bold
+                   focus-visible:outline-2
+                   focus-visible:outline-offset-2"
+          >
+            Visit GitHub
+          </a>
+
+          <a
+            href="index.html"
+            class="border-(length:--rule) border-ink
+                   bg-green px-4 py-2
+                   font-display font-bold
+                   focus-visible:outline-2
+                   focus-visible:outline-offset-2"
+          >
+            Back to Compass
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
