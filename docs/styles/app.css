@@ -2,3 +2,88 @@
 
 /* Your site's design tokens go in an @theme block here, from your own Figma
    variables. That is week 7. Until then this file only imports Tailwind. */
+
+@theme {
+  /* Red */
+  --color-red-900: #42110A;
+  --color-red-800: #6E1D11;
+  --color-red-700: #9A2818;
+  --color-red-600: #C6331F;
+  --color-red-500: #E04D39;
+  --color-red-400: #E77465;
+  --color-red-300: #EA887B;
+  --color-red-200: #F1AFA7;
+  --color-red-100: #F5C3BD;
+
+  /* Green */
+  --color-green-900: #116E18;
+  --color-green-800: #189A21;
+  --color-green-700: #1FC62A;
+  --color-green-600: #39E044;
+  --color-green-500: #39E044;
+  --color-green-400: #65E76D;
+  --color-green-300: #91EE96;
+  --color-green-200: #A7F1AB;
+
+  /* Light Grey */
+  --color-lightgrey-900: #7D96B5;
+  --color-lightgrey-800: #9AAEC6;
+  --color-lightgrey-700: #ABBB​​CF;
+  --color-lightgrey-600: #BBC8D8;
+  --color-lightgrey-500: #CBD5E1;
+  --color-lightgrey-400: #D8E0E9;
+  --color-lightgrey-300: #E8EDF2;
+  --color-lightgrey-200: #EFF2F6;
+  --color-lightgrey-100: #F5F7F9;
+
+  /* Blue */
+  --color-blue-900: #001A33;
+  --color-blue-800: #003466;
+  --color-blue-700: #004180;
+  --color-blue-600: #004E99;
+  --color-blue-500: #005EB8;
+  --color-blue-400: #0068CC;
+  --color-blue-300: #0075E5;
+  --color-blue-200: #0082FF;
+  --color-blue-100: #1A8FFF;
+
+  /* Dark Grey */
+  --color-darkgrey-900: #040507;
+  --color-darkgrey-800: #070A0D;
+  --color-darkgrey-700: #0D1217;
+  --color-darkgrey-600: #121A21;
+  --color-darkgrey-500: #17212B;
+  --color-darkgrey-400: #1E2B38;
+  --color-darkgrey-300: #273849;
+  --color-darkgrey-200: #2E4256;
+  --color-darkgrey-100: #354D64;
+
+  /* Semantic colour roles — proposed */
+   --color-text: var(--color-darkgrey-500);
+   --color-background: var(--color-lightgrey-100);
+   --color-accent: var(--color-blue-500);
+   --color-border: var(--color-lightgrey-800);
+
+  
+  /* Font family */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Typography */
+  --text-title: 2rem;
+  --text-title--line-height: 2.5rem;
+  --text-title--font-weight: 700;
+
+  --text-heading: 1.5rem;
+  --text-heading--line-height: 2rem;
+  --text-heading--font-weight: 600;
+
+  --text-h2: 1.25rem;
+  --text-h2--line-height: 1.75rem;
+  --text-h2--font-weight: 600;
+
+  --text-body: 1rem;
+  --text-body--line-height: 1.5rem;
+  --text-body--font-weight: 600;
+
+
+}
